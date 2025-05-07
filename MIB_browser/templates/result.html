@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head><title>Resultat</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <h2>RESULTAT</h2>
+  <ul>
+    {% for item in result %}
+    <li>{{ item }}</li>
+    {% endfor %}
+  </ul>
+  <a href="/">Tornar al formulari</a>
+</body>
+</html>
