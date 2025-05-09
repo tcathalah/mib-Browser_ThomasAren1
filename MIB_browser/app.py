@@ -3,8 +3,7 @@ from pysnmp.hlapi import *
 from pysnmp.proto.rfc1902 import OctetString, Integer
 from pysnmp.error import PySnmpError
 import socket
-from datetime import datetime
-import threading
+
 
 app = Flask(__name__)
 
